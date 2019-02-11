@@ -1,0 +1,23 @@
+.playerButton {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid blue;
+  font-size: 20px;
+  text-align:center;
+}
+
+.playerButton:focus {
+  outline: 0;
+}
+
+.player .ball {
+  border-radius: 25px;
+  width: 15px;
+  height: 15px;
+  position:relative;
+  left:30px;
+  bottom:20px;
+  background-image: repeating-linear-gradient(
+    45deg, white, red 15%, white 30%, red 45%, white 60%, red 75%)
+}
