@@ -97,7 +97,6 @@ class Pitch extends Component {
 
   keeperSave = (shot) => {
     let a = Math.random()
-    let b = ""
     if(a < 0.5) {
       let b = "LG"
       if (b === shot) {
